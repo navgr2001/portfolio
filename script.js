@@ -30,7 +30,7 @@ $(document).ready(function(){
     // toggle menu/navbar script
     $('.menu-btn').click(function(){
         $('.navbar .menu').toggleClass("active");
-        $('.menu-btn i').toggleClass("active");
+        $('.menu-btn i').toggleClass("fa-bars fa-times");
     });
 
     // typing text animation script
